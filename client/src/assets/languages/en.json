@@ -1,0 +1,38 @@
+{
+  "navlinks": [
+    "Home",
+    "About Us",
+    "Portfolio",
+    "Contact"
+  ],
+  "hero-title": "A BETTER WAY TO STAY",
+  "hero-title_span": "in Fethiye",
+  "hero-search-btn": "Search",
+  "about_items": [
+    "comfy bedrooms",
+    "fully equipped kitchens",
+    "air-conditioner",
+    "free wifi",
+    "washing and dryer machine",
+    "great location",
+    "parking",
+    "payment options",
+    "caring host"
+  ],
+  "about_desc": "We know what standards of service are and we do our best to provide you with the best experience in Fethiye! Our doors are always open for you!",
+  "is_loading": "Is Loading...",
+  "partner_title": "Maybe you might be interested in these...",
+  "villa_masal": "Villa Masal",
+  "villa_yoyo": "Yoyo Tinyhouse",
+  "bank_acoount": [
+    "Bank Account info",
+    "Account number :",
+    "Bank branch",
+    "IBAN",
+    "Name Surname"
+  ],
+  "google-btn": "Show all reviews",
+  "whatsup_status": "Typically replies within 30 mins",
+  "whatsup_message": "Hello there! 🤝 \nHow can we help?",
+  "whatsup_placeholder": "Type a message.."
+}

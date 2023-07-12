@@ -1,0 +1,38 @@
+{
+  "navlinks": [
+    "Ana Sayfa",
+    "Hakkımızda",
+    "Portfolyo",
+    "İletişim"
+  ],
+  "hero-title": "Fethiye'deki eviniz,",
+  "hero-title_span": "MoniHomes",
+  "hero-search-btn": "Ara",
+  "about_items": [
+    "rahat odalar",
+    "tam donanımlı mutfaklar",
+    "klima",
+    "ücretsiz wifi",
+    "çamaşır ve kurutma makinesi",
+    "mükemmel konum",
+    "otopark",
+    "ödeme seçenekleri",
+    "ilgili ev sahibi"
+  ],
+  "about_desc": "Hizmet standartlarının ne olduğunu biliyoruz ve size Fethiye'de en iyi deneyimi yaşatmak için elimizden gelenin en iyisini yapıyoruz! Kapılarımız sizler için her zaman açık!",
+  "is_loading": "Yükleniyor...",
+  "partner_title": "Belki bunlar ilginizi çekebilir...",
+  "villa_masal": "Villa Masal",
+  "villa_yoyo": "Yoyo Tinyhouse",
+  "bank_acoount": [
+    "Banka Hesabı Bilgileri",
+    "Hesap No :",
+    "Şube",
+    "IBAN",
+    "Ad Soyad / Unvan"
+  ],
+  "google-btn": "Tüm yorumları göster",
+  "whatsup_status": "Genellikle 30 dakika içinde yanıt verir",
+  "whatsup_message": "Merhaba! 🤝 \nNasıl yardımcı olabiliriz?",
+  "whatsup_placeholder": "Mesaj yazın.."
+}

@@ -1,0 +1,71 @@
+:root {
+  --primary-color: rgb(4, 51, 59);
+  --primary-color_hover: rgb(170, 95, 34);
+  --secondary-color: #628a76;
+  --white-color: #fff;
+  --primary-font: "Nunito Sans", sans-serif;
+  --dancing: "Dancing Script", cursive;
+  --color_danger: rgb(230, 34, 93);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: auto;
+  width: 100%;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+}
+
+ul {
+  list-style: none;
+}
+.p-15 {
+  padding: 150px 15px;
+}
+.p-30 {
+  padding: 120px 30px;
+}
+
+.slide-in-left-enter {
+  transform: translateX(-100%);
+}
+
+.slide-in-left-enter-active {
+  transform: translateX(0);
+  opacity: 1;
+  transition: all 500ms;
+}
+
+.slide-in-left-exit {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+.slide-in-left-exit-active {
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: all 500ms;
+}
+
+/* @media only screen and (max-width: 767px) {
+  .section_wrapper {
+    margin: 0 auto;
+    padding: 80px 30px 70px;
+    position: relative;
+  }
+
+  .section_title {
+    font-size: 26px;
+    margin-bottom: 0;
+  }
+} */
