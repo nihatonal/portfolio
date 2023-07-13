@@ -34,9 +34,9 @@ function NavLinks(props) {
             <div className={props.sidebar_nav_item_wrapper} onClick={props.closeDrawer}>
 
                 <NavLink
-                    className={active === 'aboutus' ? "nav-item active-nav-item" : "nav-item"}
+                    className={active === 'about' ? "nav-item active-nav-item" : "nav-item"}
                     to=""
-                    onClick={() => scrollSmoothTo('aboutus')}
+                    onClick={() => scrollSmoothTo('about')}
                 >
                    {lang.dictionary["navlinks"][1]}
                 </NavLink>

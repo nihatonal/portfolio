@@ -7,7 +7,7 @@ import Hamburger from './Hamburger';
 import SideDrawer from './SideDrawer';
 import Backdrop from '../UI/Backdrop';
 import SocialBar from './SocialBar';
-
+import { HiOutlineMail } from 'react-icons/hi';
 import './MainNavigation.css';
 function MainNavigation(props) {
     const [drawerIsOpen, setDrawerIsOpen] = useState(false);
@@ -55,7 +55,7 @@ function MainNavigation(props) {
                 </SideDrawer>
             }
 
-            <div className={'main_header'}>
+            <div className={'main_header p50'}>
                 <Hamburger
                     show={drawerIsOpen}
                     onClick={openDrawerHandler}
@@ -67,7 +67,7 @@ function MainNavigation(props) {
 
                 <NavLinks />
                 <div className="main_header_left-item">
-                    <a className='navbar_email' href='mailto:onalnihat1986@gmail.com'>onalnihat1986@gmail.com</a>
+                    <a className='navbar_email' href='mailto:onalnihat1986@gmail.com'><HiOutlineMail />onalnihat1986@gmail.com</a>
                     <LanguageSelector />
                 </div>
 

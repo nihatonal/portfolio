@@ -1,5 +1,5 @@
 import React, { useEffect, Suspense } from 'react';
-import { BrowserRouter, Routes } from "react-router-dom";
+import { BrowserRouter, Routes,Route } from "react-router-dom";
 import './App.css';
 
 import MainNavigation from './shared/navigation/MainNavigation'
@@ -7,7 +7,7 @@ import { LanguageProvider } from "./shared/context/Language";
 // import Footer from './shared/footer/Footer'
 
 
-//const Main = React.lazy(() => import("./main/Main.js"));
+const Main = React.lazy(() => import("./main/Main.js"));
 
 function App() {
 
@@ -16,8 +16,8 @@ function App() {
   }, []);
   let routes = (
     <React.Fragment>
-      {/* <Route exact path="/" element={<Main />} />
-      <Route path="*" element={<Main />} /> */}
+      <Route exact path="/" element={<Main />} />
+      <Route path="*" element={<Main />} />
     </React.Fragment>
   );
 

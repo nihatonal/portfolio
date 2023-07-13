@@ -1,11 +1,15 @@
 :root {
   --primary-color: rgb(4, 51, 59);
-  --primary-color_hover: rgb(170, 95, 34);
+  --primary-color_hover: #b46e3c;
   --secondary-color: #628a76;
   --white-color: #fff;
-  --primary-font: "Nunito Sans", sans-serif;
+  --primary-font: "Rubik", sans-serif;
   --dancing: "Dancing Script", cursive;
   --color_danger: rgb(230, 34, 93);
+  --boxSize: 1em;
+  --speed: 18s;
+  --rotateSceneX: -0deg;
+  --rotateSceneY: 0deg;
 }
 
 * {
@@ -57,6 +61,25 @@ ul {
   transition: all 500ms;
 }
 
+.section-title {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 36px;
+  color: var(--primary-color);
+}
+.p50 {
+  padding: 0 100px;
+}
+@media only screen and (max-width: 768px){
+  .p50 {
+    padding: 0 20px;
+  }
+  .section-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+   
+  }
+}
 /* @media only screen and (max-width: 767px) {
   .section_wrapper {
     margin: 0 auto;
